@@ -142,7 +142,7 @@ lazy val runner = project
         "org.wvlet.airframe"           %% "airframe-launcher" % AIRFRAME_VERSION,
         "com.github.ben-manes.caffeine" % "caffeine"          % "3.1.8",
         "org.apache.arrow"              % "arrow-vector"      % "17.0.0",
-        "org.duckdb"                    % "duckdb_jdbc"       % "1.1.1",
+        "org.duckdb"                    % "duckdb_jdbc"       % "1.1.2",
         "io.trino"                      % "trino-jdbc"        % TRINO_VERSION,
         // exclude() and jar() are necessary to avoid https://github.com/sbt/sbt/issues/7407
         // tpc-h connector neesd to download GB's of jar, so excluding it
